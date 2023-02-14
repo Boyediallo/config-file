@@ -1,6 +1,6 @@
 server:
   port: 8082
-
+  
 security:
   basic:
     enabled: false
@@ -10,7 +10,7 @@ management:
 
 spring:
   applications:
-    name: user-service
+    name: userservice
 
 jwt:
   accessTokenSecret: _@tos2022
